@@ -37,3 +37,18 @@ try:
 except ModuleNotFoundError:
     print("mlxtend not found, installing mlxtend")
     %pip install -q mlxtend
+
+try:
+    import zipfile 
+except ModuleNotFoundError:
+    print("install modulenotfound")
+    %pip install -q zipfile
+
+import zipfile 
+package = Path(r"DenseNetMRIPred")
+model_path = package / "best_model"
+
+with zipfile.ZipFile("best_model.zip" ,'r') as zip_ref:
+    zip_ref.extractall(model_path)
+
+os.remove("best_model.zip")
