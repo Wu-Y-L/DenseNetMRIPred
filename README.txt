@@ -1,6 +1,6 @@
 how to use: 
 
-Run setup.py to install all required dependencies / modules
+Run setup.py to install all required dependencies / modules and extracts and removes best_model.zip 
 
 
 remove existing image files in the folder "test" in "for_pred" folder then put 1.5T brain slice MRI scans into the folder.
