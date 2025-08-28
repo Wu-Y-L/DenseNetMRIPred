@@ -1,7 +1,5 @@
 ### plots confusion matrix, 9 sets of prediction against truth label, loss and accuracy curve and save them to folder named results
 
-from torchmetrics import ConfusionMatrix
-from mlxtend.plotting import plot_confusion_matrix
 import torchvision
 import torch
 from typing import Dict
