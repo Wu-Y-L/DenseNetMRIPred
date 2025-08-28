@@ -15,6 +15,8 @@ run prediction.py using a python terminal with the following template
 
 	- this step could be done by making an .ipynb file inside densenetmripred, but when doing so remove the DenseNETMRIPred/ infront of prediction.py, 
 	- other option is to make jupyter notebook just outside the DenseNetMRIPred folder / in the same folder as DenseNETMRIPred
+	- go into terminal and cd to DenseNetMRIPred, then !python prediction.py --figure_size (input) --font_size (input) 
+
 
 this will return an image with all images in for_pred loaded out and labeled with a prediction 
 prediction includes 4 classes currently mildly demented, moderately demented, non demented, very mildly demented
