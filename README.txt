@@ -1,7 +1,12 @@
 how to use: 
 
-Run setup.py to install all required dependencies / modules and extracts and removes best_model.zip 
+Run setup.py to extracts and remove best_model.zip 
 
+user should install all dependencies themselves
+the script requires:
+-	pytorch
+-	torchvision
+-	scikitlearn
 
 remove existing image files in the folder "test" in "for_pred" folder then put 1.5T brain slice MRI scans into the folder.
 run prediction.py using a python terminal with the following template
